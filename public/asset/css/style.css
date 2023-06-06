@@ -28766,7 +28766,7 @@ div.tagsinput span.tag a {
 }
 
 .sidebar .dropdown.sidebar-profile-dropdown .dropdown-menu .dropdown-item:hover {
-  background: rgba(252, 251, 251, 0.08);
+  background: transparent;
 }
 
 .sidebar .nav {
@@ -28796,7 +28796,7 @@ div.tagsinput span.tag a {
   align-items: center;
   white-space: nowrap;
   padding: 0.5rem 0.875rem 0.5rem 0.875rem;
-  color: rgba(255, 255, 255, 0.63);
+  color: #000;
   margin: 0 2.375rem 0 2.375rem;
   border-radius: 3px;
   -webkit-transition-duration: 0.45s;
@@ -28859,7 +28859,7 @@ div.tagsinput span.tag a {
 }
 
 .sidebar .nav .nav-item .nav-link .menu-title {
-  color: rgba(255, 255, 255, 0.63);
+  color: #000;
   display: inline-block;
   font-size: 0.875rem;
   line-height: 1;
@@ -28884,14 +28884,14 @@ div.tagsinput span.tag a {
 }
 
 .sidebar .nav .nav-item.active > .nav-link {
-  background: rgba(252, 251, 251, 0.08);
+  background: transparent;
   position: relative;
 }
 
 .sidebar .nav .nav-item.active > .nav-link i,
 .sidebar .nav .nav-item.active > .nav-link .menu-title,
 .sidebar .nav .nav-item.active > .nav-link .menu-arrow {
-  color: #fff;
+  color: #2563EB;
 }
 
 .sidebar .nav .nav-item .sidebar-title {
@@ -28910,7 +28910,7 @@ div.tagsinput span.tag a {
 }
 
 .sidebar .nav:not(.sub-menu) > .nav-item:hover > .nav-link {
-  background: rgba(252, 251, 251, 0.08);
+  background: transparent;
   color: #fff;
   letter-spacing: .09rem;
 }
@@ -30075,10 +30075,14 @@ div.tagsinput span.tag a {
   .sidebar-fixed .sidebar .designer-info {
     position: static;
   }
-  .sidebar-fixed .main-panel {
+  .sidebar-fixed
+   /* .main-panel */
+    {
     margin-left: 270px;
   }
-  .sidebar-fixed.sidebar-icon-only .main-panel {
+  .sidebar-fixed.sidebar-icon-only
+   /* .main-panel */
+    {
     margin-left: 70px;
   }
 }

@@ -29,11 +29,12 @@ const OwnersInfo = () => {
               </div>
               <div className="modal-body">
               <form class="forms-sample">
-                    <div class="form-group d-flex gap-3 ">
-                      <div class="col-md-6 col-12">
+                    <div class="form-group d-flex gap-3">
+                      <div class="col-md-6 col-12 px-2">
                         <label>business address</label>
-                        <input type="text" class="form-control p-2" id="exampleInputName1" placeholder="e.g 5B Ibrahim unity road"/>                      </div>
-                      <div class="col-md-6 col-12">
+                        <input type="text" class="form-control p-2 ms-2" id="exampleInputName1" placeholder="e.g 5B Ibrahim unity road"/>
+                      </div>
+                      <div class="col-md-6 col-12 px-2">
                         <label for="exampleSelectGender">location</label>
                         <select class="form-control" id="exampleSelectGender" placeholder='choose location'>
                           <option selected>choose location</option>
@@ -47,18 +48,18 @@ const OwnersInfo = () => {
                       </div>
                     </div>
                     <div class="form-group d-flex gap-3">
-                      <div class="col-md-6 col-12">
+                      <div class="col-md-6 col-sm-12 px-2">
                         <label>business phone number</label>
-                        <input type="text" class="form-control p-2" id="exampleInputName1" placeholder="e.g 090 2223 5674"/>                      </div>
-                      <div class="col-md-6 col-12">
+                        <input type="text" class="form-control p-2 ms-2" id="exampleInputName1" placeholder="e.g 090 2223 5674"/>                      </div>
+                      <div class="col-md-6 col-sm-12 px-2">
                         <label for="exampleSelectGender">location</label>
-                        <select class="form-control" id="exampleSelectGender">
+                        <select class="form-control me-2" id="exampleSelectGender">
                           <option>Male</option>
                           <option>Female</option>
                         </select>
                       </div>
                     </div>
-                    <div class="form-group">
+                    <div class="form-group px-2">
                       <label for="exampleInputName1">Tax ID</label>
                       <input type="tel" class="form-control p-2" id="exampleInputName1" placeholder="e.g 090 2223 5674"/>
                     </div>

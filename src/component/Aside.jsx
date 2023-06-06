@@ -8,7 +8,7 @@ import { MdKeyboardArrowDown } from 'react-icons/md';
 import { TiDocumentText } from 'react-icons/ti';
 import { BsPersonCheck, BsBuildings } from 'react-icons/bs'
 import { AiOutlineSetting } from 'react-icons/ai';
-import { GrGroup, GrDocumentVerified, GrProjects } from 'react-icons/gr'
+import { GrGroup, GrDocumentVerified, GrProjects } from 'react-icons/gr';
 
 const Aside = () => {
     const [dropDown, setDropDown] = useState(false);
