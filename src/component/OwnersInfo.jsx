@@ -28,7 +28,41 @@ const OwnersInfo = () => {
                 </button>
               </div>
               <div className="modal-body">
-                <p>Modal body text goes here.</p>
+              <form class="forms-sample">
+                    <div class="form-group d-flex gap-3 ">
+                      <div class="col-md-6 col-12">
+                        <label>business address</label>
+                        <input type="text" class="form-control p-2" id="exampleInputName1" placeholder="e.g 5B Ibrahim unity road"/>                      </div>
+                      <div class="col-md-6 col-12">
+                        <label for="exampleSelectGender">location</label>
+                        <select class="form-control" id="exampleSelectGender" placeholder='choose location'>
+                          <option selected>choose location</option>
+                          <option>Location 1</option>
+                          <option>Location 2</option>
+                          <option>Location 3</option>
+                          <option>Location 4</option>
+                          <option>Location 5</option>
+                          <option>Location 6</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="form-group d-flex gap-3">
+                      <div class="col-md-6 col-12">
+                        <label>business phone number</label>
+                        <input type="text" class="form-control p-2" id="exampleInputName1" placeholder="e.g 090 2223 5674"/>                      </div>
+                      <div class="col-md-6 col-12">
+                        <label for="exampleSelectGender">location</label>
+                        <select class="form-control" id="exampleSelectGender">
+                          <option>Male</option>
+                          <option>Female</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputName1">Tax ID</label>
+                      <input type="tel" class="form-control p-2" id="exampleInputName1" placeholder="e.g 090 2223 5674"/>
+                    </div>
+                  </form>
               </div>
               <div className="modal-footer">
                 <button type="button" className="btn btn-success">Submit</button>
@@ -139,7 +173,7 @@ const Wrapper = styled.div`
     display: flex;
     align-items: flex-end;
   }
-  button{
+  .top button, .modal-footer button{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -153,7 +187,7 @@ const Wrapper = styled.div`
     transition: all .5s ease;
     cursor: pointer;
   }
-  button:hover{
+  .top button:hover, .modal-footer button:hover{
     background-color: var(--navy);
   }
   button svg{
